@@ -1,0 +1,52 @@
+ 
+            Numeric Array Application:
+<html>
+<head>
+<title>Numeric Array Application</title>
+</head>
+<body>
+<?php
+$food = array("cheese", "butter", "burger", "bread", "vegetables");
+echo "Food I like is ". $food[0] . ", " . $food[3] . " and " . $food[4] . ".";
+?>
+</body>
+</html>
+
+            Associative Array Application:
+<html>
+<head>
+<title>Associative Array Application</title>
+</head>
+<body>
+<?php
+#$subjects = array("JavaScript"=>"70%", "CSS"=>"45%", "HTML"=>"80%");
+$subjects['JavaScript'] = "70%";
+$subjects['CSS'] = "45%";
+$subjects['HTML'] = "80%";
+echo "The highest score is " .$subjects['HTML'] . " which is HTML subject.";
+?>
+</body>
+</html>
+
+            Multidimensional Array Application:
+<html>
+<head>
+<title>Multidimensional Array Application</title>
+</head>
+<body>
+<?php
+$subjects = array
+(
+array("JavaScript", 70),
+array("CSS", 45),
+array("HTML", 80)
+);
+for($row = 0; $row < 3; $row++) {
+ echo "<b>First subject row: $row</b>";
+ for ($col = 0; $col < 2; $col++) {
+  echo "<li>".$subjects[$row][$col]."</li>";
+ }
+}
+?>
+</body>
+</html>
