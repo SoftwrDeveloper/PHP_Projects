@@ -1,0 +1,66 @@
+
+PHP if/else Application:
+<html>
+<head>
+<title>PHP if/else Application</title>
+</head>
+<body>
+<?php
+$myVar = 3;
+if ($myVar==2) {
+ echo "The if statement is true";
+} else {
+ echo "The if statement is false";
+}
+?>
+</body>
+</html>
+
+PHP if/elseif/else Application:
+<html>
+<head>
+<title>PHP if/elseif/else Application</title>
+</head>
+<body>
+<?php
+$myVar = 3;
+if ($myVar==1) {
+ echo "The if statement is true";
+} elseif ($myVar==2) {
+ echo "The elseif statement is true";
+} else {
+ echo "The if and elseif statements are false";
+}
+?>
+</body>
+</html>
+
+PHP Switch Statement Application:
+<html>
+<head>
+<title>PHP Switch Statement Application</title>
+</head>
+<body>
+<?php
+$yourteam = "Liverpool FC";
+switch ($yourteam) {
+ case "Leicester FC":
+ echo "Is Leicester your team?";
+ break;
+ case "Manchester City":
+ echo "Is Manchester City your team?";
+ break;
+ case "Manchester United":
+ echo "Is Manchester United your team?";
+ case "Chelsea FC":
+ echo "Is Chelsea FC your team?";
+ break;
+ case "Liverpool FC":
+ echo "Is Liverpool FC your team?";
+ break;
+ default:
+ echo "Is neither Leicester FC, Manchester City or United, nor Chelsea FC?";
+}
+?>
+</body>
+</html>
