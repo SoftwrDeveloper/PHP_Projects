@@ -1,0 +1,57 @@
+
+<html>
+<head>
+<title>PHP Variable Application</title>
+</head>
+<body>
+<?php
+# variable introduction
+$m = 13;
+$n = 10.5;
+echo $m + $n;
+echo "<br>";
+$a = "Hello YouTubers!, ";
+$b = "Welcome to Software Developer Channel.";
+echo $a.$b;
+?>
+</body>
+</html>
+
+PHP Local Variable Application: 
+
+<html>
+<head>
+<title>Local Variable Application</title>
+</head>
+<body>
+<?php
+function varLocal() {
+ $m = 5;
+ $n = 12;
+ $n = $m + $n;
+ echo $n;
+}
+varLocal();
+?>
+</body>
+</html>
+
+PHP Global Variable Application:
+
+<html>
+<head>
+<title>Global Variable Application</title>
+</head>
+<body>
+<?php
+$m = 6.5;
+$n = 9;
+function varGlobal() {
+ GLOBAL $m, $n;
+ $n = $m + $n;
+}
+varGlobal();
+echo $n;
+?>
+</body>
+</html>
