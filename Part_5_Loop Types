@@ -1,0 +1,46 @@
+ 
+ PHP forloop Application:     
+<html>
+<head>
+<title>PHP forloop Application</title>
+</head>
+<body>
+<?php
+for($m=3; $m<=6; $m++) {
+ echo "Number i is: $m <br>";
+}
+?>
+</body>
+</html>
+
+                                  PHP whileloop Application:
+<html>
+<head>
+<title>PHP whileloop Application</title>
+</head>
+<body>
+<?php
+$m = 2;
+do {
+ echo "Number m variable is: $m <br>";
+ $m++;
+}while($m <5);
+?>
+</body>
+</html>
+
+                              PHP dowhileloop Application:
+<html>
+<head>
+<title>PHP dowhileloop Application</title>
+</head>
+<body>
+<?php
+$m = 2;
+do {
+ echo "Number m variable is: $m <br>";
+ $m++;
+}while($m <0);
+?>
+</body>
+</html>
